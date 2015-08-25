@@ -2,7 +2,8 @@
 
 STM32F4 sample code 
 ===================
-hello world
+1. hello world
+2. reading external accelerometer (ADXL345)
 
 
 OS version 
@@ -36,8 +37,7 @@ Pre-Build
 
 ```
 
-If you encounter the problems of missing packages, try to execute the
-following commands in advance:
+If you encounter the problems of missing packages, try to execute the following commands in advance:
 
 ```
     $ sudo add-apt-repository ppa:terry.guo/gcc-arm-embedded
@@ -51,9 +51,11 @@ following commands in advance:
 Make 
 ====
 
-make sure your device is plug in the usb
+Make sure your device is plug in the usb
+For the seek of convenient, the library needed for single project is contained in each directory
+Attension: stub.c is included in adxl345 directory
 
 ```
-    $ cd /helloworld
+    $ cd /[dir you want]
     $ make && make flash
 ```
