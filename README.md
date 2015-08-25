@@ -1,4 +1,13 @@
 
+OS version 
+==========
+```
+Distributor ID:IDUbuntu
+Description:DescriptionUbuntu 14.04.1 LTS
+Release:Release14.04
+Codename:Codenametrusty
+```
+
 Pre-Build 
 =========
 
@@ -40,6 +49,4 @@ make sure your device is plug in the usb
 
 ```
     $ make && make flash
-``
-
-
+```
