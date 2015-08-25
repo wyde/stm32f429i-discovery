@@ -54,5 +54,6 @@ Make
 make sure your device is plug in the usb
 
 ```
+    $ cd /helloworld
     $ make && make flash
 ```
