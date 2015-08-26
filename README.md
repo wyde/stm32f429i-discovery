@@ -4,6 +4,7 @@ STM32F4 sample code
 ===================
 1. hello world
 2. reading external accelerometer (ADXL345)
+3. adopting external button 
 
 
 OS version 
@@ -58,4 +59,11 @@ Attension: stub.c is included in adxl345 directory
 ```
     $ cd /[dir you want]
     $ make && make flash
+```
+
+If usart reading is needed..
+
+```
+    screen /dev/ttyUSB0 15200 8n1
+    (15200 baud, 8-bits per character, no parity, and 1 stop bit)
 ```
